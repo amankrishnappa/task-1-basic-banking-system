@@ -1,0 +1,116 @@
+//html code
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Basic Banking System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Basic Banking System</h1>
+    <div class="accounts">
+      <h2>Accounts</h2>
+      <ul id="account-list">
+        <li><span class="account-name">John Doe</span> <span class="account-balance">$5000</span></li>
+        <li><span class="account-name">Jane Smith</span> <span class="account-balance">$2500</span></li>
+        <li><span class="account-name">Bob Johnson</span> <span class="account-balance">$10000</span></li>
+      </ul>
+    </div>
+    <div class="transfer">
+      <h2>Transfer Money</h2>
+      <form id="transfer-form">
+        <label for="from-account">From Account:</label>
+        <select id="from-account" name="from-account">
+          <option value="john-doe">John Doe</option>
+          <option value="jane-smith">Jane Smith</option>
+          <option value="bob-johnson">Bob Johnson</option>
+        </select>
+        <label for="to-account">To Account:</label>
+        <select id="to-account" name="to-account">
+          <option value="john-doe">John Doe</option>
+          <option value="jane-smith">Jane Smith</option>
+          <option value="bob-johnson">Bob Johnson</option>
+        </select>
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" name="amount" required>
+        <button type="submit">Transfer</button>
+      </form>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
+
+
+//css code
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .accounts {
+    text-align: left;
+    margin-bottom: 50px;
+  }
+  
+  .accounts h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .account-name {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .transfer {
+    text-align: left;
+  }
+  
+  .transfer h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  select,
+  input[type="number"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }  
