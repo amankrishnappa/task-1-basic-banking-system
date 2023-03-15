@@ -15,6 +15,14 @@
         <li><span class="account-name">John Doe</span> <span class="account-balance">$5000</span></li>
         <li><span class="account-name">Jane Smith</span> <span class="account-balance">$2500</span></li>
         <li><span class="account-name">Bob Johnson</span> <span class="account-balance">$10000</span></li>
+        <li><span class="account-name">steve</span> <span class="account-balance">$67000</span></li>
+        <li><span class="account-name">jon bedgi</span> <span class="account-balance">$68000</span></li>
+        <li><span class="account-name">sammy</span> <span class="account-balance">$69000</span></li>
+        <li><span class="account-name">rohit</span> <span class="account-balance">$70000</span></li>
+        <li><span class="account-name">virat</span> <span class="account-balance">$71000</span></li>
+        <li><span class="account-name">ram</span> <span class="account-balance">$72000</span></li>
+        <li><span class="account-name">krishna</span> <span class="account-balance">$73000</span></li>
+
       </ul>
     </div>
     <div class="transfer">
@@ -25,6 +33,13 @@
           <option value="john-doe">John Doe</option>
           <option value="jane-smith">Jane Smith</option>
           <option value="bob-johnson">Bob Johnson</option>
+          <option value="bob-johnson"><i class="fa fa-street-view" aria-hidden="true"></i></option>
+          <option value="bob-johnson">jon bedgi</option>
+          <option value="bob-johnson">sammy</option>
+          <option value="bob-johnson">rohit</option>
+          <option value="bob-johnson">virat</option>
+          <option value="bob-johnson">ram</option>
+          <option value="bob-johnson">krishna</option>
         </select>
         <label for="to-account">To Account:</label>
         <select id="to-account" name="to-account">
